@@ -1,0 +1,138 @@
+.arrow {
+    margin: 0 5px;
+    font-size: 18px;
+    transition: 500ms ease-in-out;
+    display: inline-block;
+    font-weight: bold;
+    rotate: 3.1416rad;
+}
+
+.navbar__links a:hover .arrow {
+
+    rotate: 0rad;
+}
+
+
+
+.navbar__links a {
+    margin: 0 10px;
+
+    color: var(--common-font-color);
+    text-decoration: none;
+}
+
+
+.navbar__actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.navbar__actions a {
+
+
+
+    text-decoration: none;
+}
+
+.menue-icon {
+
+    display: none;
+}
+
+
+.sectionOne {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20;
+}
+
+
+.sectionOne__left--title {
+
+    font-size: var(--heading-main);
+    line-height: 60px;
+}
+
+.sectionOne__left--body {
+    line-height: 36px;
+    text-align: justify;
+    letter-spacing: -0.4px;
+    font-size: var(--body-font-size);
+
+}
+
+
+.btn-singup-hero-section {
+    padding: 20px 40px;
+
+
+}
+
+.sectionOne__left--signup-email-input {
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    background-color: #EEF4F5;
+}
+
+/* selecting and apply sudo element place holder and increment its front size */
+input.sectionOne__left--signup-email-input::placeholder {
+
+
+    font-size: 16px;
+}
+
+/* when user select text for higliting or copyin purpose it will apply the follwing color */
+user::selection {
+    background-color: rgba(0, 128, 0, 0.708);
+    color: white;
+}
+
+
+.hero-signin a {
+
+
+    text-decoration: none;
+    color: #258AFF;
+}
+
+
+
+
+
+
+/* responsive break point media query  */
+
+/* desktop first approch */
+
+@media (max-width:1200px) {}
+
+@media (max-width:1024px) {}
+
+@media (max-width:778px) {
+
+    .sectionOne {
+        grid-template-columns: 1fr;
+    }
+
+    .sectionOne__left {
+        order: 1;
+    }
+
+    .sectionOne__right {
+        order: 0;
+    }
+
+    .navbar__links {
+        display: none;
+    }
+
+    .menue-icon {
+        display: block;
+    }
+}
+
+@media (max-width:568px) {}
