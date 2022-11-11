@@ -22,13 +22,14 @@
     --body-font-size: 21px;
     --card-body-f-size: 17px;
     --body-main-bg: #f8f9fc;
+    --secton-two-wave-color: #EEF4F5;
 }
 
 
 .container {
 
     margin: 0 auto;
-    max-width: 1264px;
+    width: 90%;
 }
 
 
@@ -87,7 +88,9 @@
     display: none;
 }
 
-
+.text-center {
+    text-align: center;
+}
 
 
 
