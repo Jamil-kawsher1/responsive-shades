@@ -29,7 +29,7 @@
 .container {
 
     margin: 0 auto;
-    width: 90%;
+    width: 1296px;
 }
 
 
@@ -92,7 +92,9 @@
     text-align: center;
 }
 
-
+.common-line-specing {
+    line-height: 10px;
+}
 
 
 
