@@ -101,11 +101,11 @@ user::selection {
 
 
 .sectionTwo {
-    position: absolute;
+    /* position: absolute; */
     background-position: top;
     /* background: url('../src/img/l1-featrues-bg-shape.svg'); */
     width: 100%;
-    height: 1000px;
+    /* height: 1000px; */
     background-color: #EEF4F5;
 
     background-repeat: no-repeat;
@@ -141,6 +141,23 @@ user::selection {
 
 
     text-decoration: none;
+}
+
+.sectionThree {
+    padding: 130px 0;
+}
+
+.sectionThree__right h2 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.sectionThree__right p {
+    max-width: 550px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: justify;
 }
 
 /* responsive break point media query  */

@@ -52,7 +52,13 @@
     display: grid;
 
     gap: 20px;
+
     place-content: center;
+
+}
+
+.decortaion--off {
+    text-decoration: none;
 
 }
 
