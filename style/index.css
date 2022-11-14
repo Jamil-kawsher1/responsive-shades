@@ -160,6 +160,42 @@ user::selection {
     text-align: justify;
 }
 
+.sectionFour {
+
+
+    background-color: #EEF4F5;
+    padding-top: 130px;
+}
+
+[class*=sectionFour__] {
+    background-color: inherit;
+}
+
+
+
+.sectionFour__left h2 p svg {
+    background-color: inherit;
+}
+
+
+
+.sectionFour__left--body {
+    font-size: var(--common-body-f);
+    color: rgba(0, 0, 0, 0.604);
+    line-height: 36px;
+}
+
+[class*=sectionFour__left--tick] {
+
+    font-size: 20px;
+
+}
+
+.sectionFour__left--tick-svg {
+
+    color: #258AFF;
+}
+
 /* responsive break point media query  */
 
 /* desktop first approch */

@@ -23,6 +23,9 @@
     --card-body-f-size: 17px;
     --body-main-bg: #f8f9fc;
     --secton-two-wave-color: #EEF4F5;
+    --tiitle-size-small-device: 38px;
+    --common-body-f: 28px;
+    --line-hight-small-device: 48px
 }
 
 
@@ -102,7 +105,11 @@
     line-height: 10px;
 }
 
-
+.tittle-common {
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
 
 
 
