@@ -162,7 +162,7 @@ user::selection {
 
 .sectionFour {
 
-
+    width: 100%;
     background-color: #EEF4F5;
     padding-top: 130px;
 }
@@ -204,7 +204,7 @@ user::selection {
 
 @media (max-width:1024px) {}
 
-@media (max-width:820px) {
+@media (max-width:900px) {
     .container {
         max-width: 90%;
     }
@@ -245,6 +245,22 @@ user::selection {
 
     .sectionTwo__container--title {
         font-size: 34px;
+    }
+
+    .sectionThree {
+        flex-direction: column;
+    }
+
+    .sectionFour__inner {
+        flex-direction: column;
+    }
+
+    .sectionFour__left {
+        order: 1;
+    }
+
+    .sectionFour__right {
+        order: 0;
     }
 }
 
